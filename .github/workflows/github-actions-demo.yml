@@ -5,3 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello world"
+  Does-This-Fail:
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 1
