@@ -1,0 +1,7 @@
+name: GH Actions demo
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello world"
